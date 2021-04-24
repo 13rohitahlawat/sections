@@ -1,0 +1,29 @@
+/* logo section */
+
+.logo_outer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 500px;
+
+  h1 {
+    margin-bottom: 40px;
+    text-align: center;
+    margin-top: 20px;
+    color: $orange-color;
+    font-family: poppins;
+  }
+}
+.col-sm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+
+  img {
+    width: 70px;
+    height: 80px;
+  }
+}

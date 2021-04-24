@@ -1,0 +1,52 @@
+.footer {
+  height: auto;
+  background-color: #222;
+  color: #fff;
+
+  &_inner {
+    height: 400px;
+  }
+}
+.brand {
+  padding: 40px 0;
+  font-family: poppins;
+}
+.brand_disciption {
+  line-height: 25px;
+  color: $orange-color;
+}
+.social_icons {
+  position: relative;
+  left: -50px;
+  list-style: none;
+  display: flex;
+  margin-top: 20px;
+  li {
+    display: flex;
+    margin-left: 50px;
+    color: white;
+    font-family: poppins;
+  }
+}
+.brand_2 {
+  padding: 20px 0;
+  font-family: poppins;
+}
+.link_section {
+  position: relative;
+  left: -15px;
+  list-style: none;
+  display: flex;
+
+  li {
+    display: flex;
+    margin-left: 15px;
+    color: #a79c9c;
+    font-family: poppins;
+  }
+}
+.address {
+  font-size: 15px;
+  margin-top: 10px;
+  color: #6d6b6b;
+}
